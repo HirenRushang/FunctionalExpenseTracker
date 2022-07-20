@@ -1,0 +1,39 @@
+.income_wrapper{
+    margin-top: 45px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.income_wrapper .income_section .income_section_title{
+    margin-bottom: 30px;
+    font-weight: 500 !important;
+}
+
+.income_wrapper .income_section .income_total{
+    margin-bottom: 30px;
+}
+
+.income_wrapper .income_section .total{
+    font-weight: 500;
+}
+
+.income_list{
+    display: flex;
+}
+
+.income_list .category{
+    flex: 6;
+}
+
+.income_list .amount{
+    flex: 2;
+}
+
+.income_list .delete_icon{
+    flex: 1;
+}

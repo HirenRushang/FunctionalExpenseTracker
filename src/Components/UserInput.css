@@ -1,0 +1,46 @@
+
+.userinput_wrapper{
+    margin-top: 45px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.userinput_wrapper .add_statement{
+    justify-content: center;
+    border-bottom: 2px solid gray;
+}
+
+.userinput_wrapper  .first,
+.userinput_wrapper  .sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.userinput_wrapper .userinput_section .total_balane .total{
+    font-weight: 500 !important;
+    margin-left: 10px;
+}
+
+
+.userinput_wrapper  .first .user_data_type,
+.userinput_wrapper  .first .user_data_category,
+.userinput_wrapper  .sec .user_data_amount,
+.userinput_wrapper  .sec .user_data_date{
+    display: flex;
+    flex-direction: column;
+}
+
+.userinput_wrapper .third .user_data_create_btn{
+    text-align: center;
+}
+
+.userinput_wrapper .third{
+    margin-top: 30px;
+}

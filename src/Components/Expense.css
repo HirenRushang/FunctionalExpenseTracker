@@ -1,0 +1,39 @@
+.expense_wrapper{
+    margin-top: 45px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.expense_wrapper .expense_section .expense_section_title{
+    margin-bottom: 30px;
+    font-weight: 500 !important;
+}
+
+.expense_wrapper .expense_section .expense_total{
+    margin-bottom: 30px;
+}
+
+.expense_wrapper .expense_section .total{
+    font-weight: 500;
+}
+
+.expense_list{
+    display: flex;
+}
+
+.expense_list .category{
+    flex: 6;
+}
+
+.expense_list .amount{
+    flex: 2;
+}
+
+.expense_list .delete_icon{
+    flex: 1;
+}

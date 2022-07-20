@@ -1,0 +1,5 @@
+.home_wrapper .home_section .user_data_chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
